@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block title %}Resultat{% endblock %}
+
+{% block content %}
+<div class ="middle">
+    <h1>Her er dine resultater</h1>
+
+    <p>{{ question_text }}</p>
+
+    <p>Dit svar: <b>{{ answerText }}</b></p>
+
+    {% if answer %}
+    <p style="color: green;">Det var det rigtige svar!</p>
+    {% else %}
+    <p style="color: red;">Det var ikke det rigtige svar</p>
+    {% endif %}
+</div>
+
+<br><br>
+<a href="/">Tilbage</a>
+{% block content %}
