@@ -1,15 +1,3 @@
-/*
- This is a translation of Java code from earlier versions of
- Thinking Machine.
-
- (c) 2002-2016 Martin Wattenberg
-
- Trivia: about 3,200 lines of Java == 1,800 lines of Javascript.
- See demo/ directory for individual files.
-*/
-
-// Global constants and basic chess info.
-
 var chess = {
   GAME_ALIVE: 0,
   WHITE_WIN: 1,
