@@ -1,10 +1,4 @@
 // Web worker for calculating moves asynchronously.
-
-//importScripts('chess-bundle.js');
-importScripts('chess.js', 'ray-table.js', 'move.js',
-		'position.js', 'evaluation.js', 'ai.js');
-
-
 var ai = AI();
 
 // Set up dispatch system.
