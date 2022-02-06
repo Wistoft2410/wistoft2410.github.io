@@ -1,14 +1,8 @@
-.yellow{
-  background-color: yellow;
-  color: pink;
-
+.container {
+  display: flex;
 }
 
-.bold{
-  font-weight: bold;
-}
-
-#overskrift {
+#titel {
   font-weight: bold;
   color: blue;
   text-align: center;
