@@ -1,25 +1,46 @@
-.container {
+body {
+  background-color: #0D1438;
+}
+
+.container-1{
   display: flex;
 }
 
-#titel {
-  font-weight: bold;
-  color: blue;
-  text-align: center;
+.container-1 div {
+  border: 1px #ccc solid;
+  padding: 10px;
+}
+
+.box-1 {
 
 }
 
+.box-2 {
 
-#content {
-  border: 2px solid cornflowerblue;
-  margin-left: 30%;
-  width: 40%;
-  padding: 20px;
 }
 
-/* kommantar */
-img{
-  width: 30%;
-  display: block;
+.box-3 {
 
+}
+
+.font {
+  font-family: Helvetica, Sans-Serif;
+  color: white;
+}
+
+.titel-1 {
+
+}
+
+.circular-square {
+  width: 200px;
+  height: 200px;
+  border: 8px white solid;
+  border-radius: 90%;
+}
+
+.button {
+  border: 2px solid rgba(255, 255, 255,);
+  background-color: #0B0F25;
+  color: white;
 }
